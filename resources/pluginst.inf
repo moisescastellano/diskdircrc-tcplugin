@@ -1,0 +1,6 @@
+[plugininstall] 
+description=DiskDirCrc (32+64bit) - directory list plugin that includes CRC to verify integrate
+type=wcx 
+file=diskdircrc.wcx 
+defaultdir=DiskDirCrc
+defaultextension=lst
