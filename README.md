@@ -1,6 +1,6 @@
 DiskDirCrc 1.0, a [Total Commander](https://www.ghisler.com/) plugin
 ====================================
-(c) Moises Castellano 2021
+Author: Moises Castellano 2021
 
 As the original DiskDir plugin, DiskDirCrc creates a list file with all selected files and directories, including subdirs. You can then "navigate" this list with Total Commander as if it was an archive or directory containing the files.
 
