@@ -14,6 +14,11 @@ If the original files are in other location (e.g. another drive unit) and you wa
  - manually change the path in the first line of the list file
  - use the standalone java application provided along the plugin, see below
 
+Download
+========
+[At github](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
+Page [at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
+
 Java plugin
 ===========
 DiskDirCrc is written in Java, so you need to have installed a [Java Runtime Environment (JRE)](https://www.java.com/en/download/manual.jsp).
