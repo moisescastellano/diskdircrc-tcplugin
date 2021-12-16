@@ -30,19 +30,6 @@ I have come to the conclusion that the way the PluginClassLoader loads the jars 
 
 If you wanna give a try to using Log4J within this plugin, let me know if you can make it work.
 
-
-I have not been able to get the logging for plugins to work. Handel configured the ZeroConfSocketHubAppender by default, that works along with Apache Chainsaw, sending logs visa sockets and showing in a GUI. I installed Chainsaw, but just the initial connections is logged. Also Chainsaw is quite deprecated, having a main page with lots of broken links, and dependencies are hard to find.
-
-So I tried to update the commons-logging and log4j libraries and config them to log in file, but also that did not work. 
-
-Then I updated to log4j2, it didn't work either.
-
-I have come to the conclusion that the way the PluginClassLoader loads the jars from javalib is incompatible with Log4j's Loggers instantiation.
-
-Finally I have created a very simple DiskDirCrcLogger class, configurable only by changing the code.
-
-If you wanna give a try to using Log4J within this plugin, let me know if you can make it work.
-
 Further testing
 ===============
 Further testing should be done, with things such as Unicode characters.
