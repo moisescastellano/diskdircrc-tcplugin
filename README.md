@@ -1,5 +1,6 @@
-DiskDirCrc 1.0 (c) Moises Castellano 2021
-=========================================
+DiskDirCrc 1.0, a [Total Commander](https://www.ghisler.com/) plugin
+====================================
+(c) Moises Castellano 2021
 
 As the original DiskDir plugin, DiskDirCrc creates a list file with all selected files and directories, including subdirs. You can then "navigate" this list with Total Commander as if it was an archive or directory containing the files.
 
@@ -12,6 +13,12 @@ Said format is plain text (human readable) where the first line stores the locat
 If the original files are in other location (e.g. another drive unit) and you want to check their CRC without moving them, you have two options:
  - manually change the path in the first line of the list file
  - use the standalone java application provided along the plugin, see below
+
+Java plugin
+===========
+DiskDirCrc is written in Java, so you need to have installed a [Java Runtime Environment (JRE)](https://www.java.com/en/download/manual.jsp).
+
+It is based on the [Java plugin](https://github.com/moisescastellano/tcmd-java-plugin)
 
 
 Known bugs and things to-do
@@ -34,7 +41,7 @@ Standalone application for creating / checking index files
 ==========================================================
 
 A standalone java application (meaning Total Commander is not needed to execute it) is provided along with the plugin. 
-(Note: to be provided soon, just needs a bit documentation about usage for public release)
+**(Note: to be provided soon, just needs a bit documentation about usage for public release)**
 
 This can be useful for things like:
  - batch-creating in background multiple lists of files
@@ -47,7 +54,7 @@ Standalone application for incremental backups
 An incremental backup is one in which successive copies of the data contain only the portion that has changed since the preceding backup copy was made.
 
 A basic tool for incremental backups is also provided along with the plugin.
-(Note: to be provided soon, just needs a bit documentation about usage for public release)
+**(Note: to be provided soon, just needs a bit documentation about usage for public release)**
 
 Taking advantage of the indexing and CRC-checking facilities developed for the previous application, along with the zip libraries included in every Java release, the backup application just needs to read all the previous backup lists to know which files need to be archived in the new backup, checking CRCs if desired.
 
