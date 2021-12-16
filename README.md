@@ -16,8 +16,9 @@ If the original files are in other location (e.g. another drive unit) and you wa
 
 Download
 ========
-[At github](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
-Page [at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
+[Last release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
+
+[Plugin page at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
 
 Java plugin
 ===========
