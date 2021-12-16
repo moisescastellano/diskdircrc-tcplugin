@@ -81,7 +81,7 @@ Contact
 If you have any comment, suggestion or problem regarding this java plugin,
 you contact me at:
  - email: moises.castellano (at) gmail.com
- - https://github.com/moisescastellano/tcmd-java-plugin/issues  (github for future java plugins, in progress)
+ - [github project issues page](https://github.com/moisescastellano/diskdircrc-tcplugin/issues)
 Please specify the java plugin and the JRE version you are using.
 
 
