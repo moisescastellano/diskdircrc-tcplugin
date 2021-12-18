@@ -1,6 +1,5 @@
 DiskDirCrc 1.0, a [Total Commander](https://www.ghisler.com/) plugin
 ====================================
-Author: Moises Castellano 2021
 
 As the original DiskDir plugin, DiskDirCrc creates a list file with all selected files and directories, including subdirs. You can then "navigate" this list with Total Commander as if it was an archive or directory containing the files.
 
@@ -14,29 +13,30 @@ If the original files are in other location (e.g. another drive unit) and you wa
  - manually change the path in the first line of the list file
  - use the standalone java application provided along the plugin, see below
 
-Download
-========
-[Last release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
-
-[Plugin page at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
+Download and resources
+----------------------
+- Download the [last release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
+- [Plugin page at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
+- [Thread for discussing this plugin](https://www.ghisler.ch/board/viewtopic.php?t=75748) at the TC forum
+- This is a work in progress, you can help with [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md)
 
 Java plugin
-===========
+----------------------
 DiskDirCrc is written in Java, so you need to have installed a [Java Runtime Environment (JRE)](https://www.java.com/en/download/manual.jsp).
 
-It is based on the [Java plugin](https://github.com/moisescastellano/tcmd-java-plugin)
+This plugin is based on the [Java plugin interface](https://github.com/moisescastellano/tcmd-java-plugin)
 
 
 Known bugs and things to-do
-===========================
+----------------------
 Dates are shown incorrectly (e.g. year shown as 2098). This is an error not in my code but in the java plugin library. Soon to be corrected.
 Note: dates in the index file are in fact saved correctly, as you can check by associating the extension with the original DiskDir plugin. They are just *shown* incorrectly.
 
-See to-do.txt in the plugin zip for other work in progress.
+Refer to [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md) for other work in progress.
 
 
 Speed of DiskDirCrc vs DiskDir
-==============================
+----------------------
 
 In order to calculate CRCs, DiskDirCrc has to open and read the files contents. So creating a list file will take longer than DiskDir. Having the CRC in the list adds no appreciable delay for opening and navigating the list.
 
@@ -44,7 +44,7 @@ DiskDirCrc is a Java plugin. The first time you open a list file the JVM has to 
 
 
 Standalone application for creating / checking index files
-==========================================================
+----------------------
 
 A standalone java application (meaning Total Commander is not needed to execute it) is provided along with the plugin. 
 **(Note: to be provided soon, just needs a bit documentation about usage for public release)**
@@ -56,7 +56,7 @@ This can be useful for things like:
 
 
 Standalone application for incremental backups
-==============================================
+----------------------
 An incremental backup is one in which successive copies of the data contain only the portion that has changed since the preceding backup copy was made.
 
 A basic tool for incremental backups is also provided along with the plugin.
@@ -68,7 +68,7 @@ Important note!: Beware this tool can create incremental backups that are stored
 
 
 A bit of history
-================
+----------------------
 I created first the standalone application for index files in 2002. Back then DiskDir and its list files were very useful for knowing and navigating what I had in CD-ROMs, as they are now for which is in external drives and others; however the former ones were more error-prone so I needed an integrity verification tool that happened to be perfectly integrable into Diskdir list files.
 
 Development of incremental backup application began in 2005, then was abandoned for a long (long) time, then finished in 2017.
@@ -77,7 +77,9 @@ In 2021 I took in charge the adaptation to 64-bit Total Commander of abandoned J
 
 
 Contact
-=======
+----------------------
+Author: Moises Castellano 2021
+
 If you have any comment, suggestion or problem regarding this java plugin,
 you contact me at:
  - email: moises.castellano (at) gmail.com
@@ -87,12 +89,12 @@ Please specify the java plugin and the JRE version you are using.
 
 
 Disclaimer
-==========
+----------------------
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 License
-=======
+----------------------
 Licensed under under the GNU General Public License v3.0, a strong copyleft license:
 https://github.com/moisescastellano/tcmd-java-plugin/blob/main/LICENSE
 
