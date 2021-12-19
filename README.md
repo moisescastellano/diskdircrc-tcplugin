@@ -15,7 +15,7 @@ If the original files are in other location (e.g. another drive unit) and you wa
 
 Download and resources
 ----------------------
-- Download the [last release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
+- Download the [latest release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
 - [Plugin page at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
 - [Thread for discussing this plugin](https://www.ghisler.ch/board/viewtopic.php?t=75748) at the TC forum
 - This is a work in progress, you can help with [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md)
