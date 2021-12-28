@@ -40,7 +40,9 @@ Speed of DiskDirCrc vs DiskDir
 
 In order to calculate CRCs, DiskDirCrc has to open and read the files contents. So creating a list file will take longer than DiskDir. Having the CRC in the list adds no appreciable delay for opening and navigating the list.
 
-DiskDirCrc is a Java plugin. The first time you open a list file the JVM has to be instantiated, which in a modern computer takes less than a couple seconds. Opening following list files, or navigating, is as quick as in DiskDir. 
+DiskDirCrc is a Java plugin. The first time you open a list file the JVM has to be instantiated, which in a modern computer takes less than a couple seconds. Opening following list files, or navigating, is as quick as in DiskDir.
+
+Note if you want to keep .lst extension associated to original DiskDir plugin, you can still use DiskDirCrc associated to a new extension, like .clst
 
 
 Standalone application for creating / checking index files
