@@ -5,6 +5,8 @@ As the original DiskDir plugin, DiskDirCrc creates a list file with all selected
 
 DiskDirCrc also calculates the CRC of the files and writes them into the index file. CRC is an error-detecting code commonly used in digital storage devices to detect accidental changes to data. DiskDirCrc can then check (Alt+Shift+F9) the integrity of files comparing the CRC in the list.
 
+ ![JavaDecompiler screenshot](https://github.com/moisescastellano/diskdircrc-tcplugin/raw/main/screenshots/DiskDirCrc.png)
+
 The format of the list file created by DiskDirCrc is compatible both ways to the format of DiskDir, meaning DiskDirCrc can read/navigate lists created by DiskDir and viceversa. The CRC is stored in an aditional column that DiskDir just happens to ignore.
 
 Said format is plain text (human readable) where the first line stores the location of files (e.g. an external drive) when the list is created. When extracting or checking CRC in files, the original files should be in this same location, since the index file is not really an archive so it does not contain those files.
