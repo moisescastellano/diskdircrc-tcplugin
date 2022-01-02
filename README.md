@@ -39,12 +39,16 @@ JVM_HOME=c:\Program Files\Java\jre1.8.0_311
 
 Note 2: [**OpenJDK versions have been reported to fail**](https://github.com/moisescastellano/tcmd-java-plugin/issues/2) when the plugin tries to start the JVM. By now, recommendation is to install an Oracle (Sun) JDK/JRE version. Java plugin interface and derived plugins like [JavaDecompiler](https://moisescastellano.github.io/javadecompiler-tcplugin/) and [DiskDirCrc](https://moisescastellano.github.io/diskdircrc-tcplugin/) have been tested on **Oracle (Sun) JRE 1.8**  (jre-8u311-windows-x64.exe).
 
-Known bugs and things to-do
+Issues and things to-do
 ----------------------
-Dates are shown incorrectly (e.g. year shown as 2098). This is an error not in my code but in the java plugin library. Soon to be corrected.
-Note: dates in the index file are in fact saved correctly, as you can check by associating the extension with the original DiskDir plugin. They are just *shown* incorrectly.
+This is a work in progress. **Help wanted!** - in particular with Visual C++ issues.
 
-Refer to [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md) for other work in progress.
+ - Dates are shown incorrectly (e.g. year shown as 2098). This is an error not in my code but in the java plugin library. Soon to be corrected.
+Note: dates in the index file are in fact **saved correctly**, as you can check by associating the extension with the original DiskDir plugin. They are just *shown* incorrectly.
+ - Refer to [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md) for work in progress.
+ - Check also the this project's [issues page](https://github.com/moisescastellano/diskdircrc-tcplugin/issues).
+ - Java Plugin Interface's [issues page](https://github.com/moisescastellano/tcmd-java-plugin/issues).
+
 
 
 Speed of DiskDirCrc vs DiskDir
