@@ -1,7 +1,10 @@
 
 DiskDirCrc Java plugin - Things To do
 =====================================
-This is a work in progress. 
+
+This is a work in progress. **Help wanted!** - in particular with Visual C++ issues. See contact below.
+
+Check also this project's [issues page](https://github.com/moisescastellano/diskdircrc-tcplugin/issues) and Java Plugin Interface's [issues page](https://github.com/moisescastellano/tcmd-java-plugin/issues).
 
 Known bugs
 ----------
@@ -11,6 +14,8 @@ They are only *shown* incorrectly.
 
 Logging
 ----------
+
+**This has been [solved in Java Plugin Interface v2.2](https://github.com/moisescastellano/tcmd-java-plugin/blob/main/logging.md). To be applied / removed from to-do in DiskDirCrc 1.1**
 
 I have not been able to get the logging for plugins to work with Log4J. 
 So I have created a very simple PluginLogger class.
