@@ -1,4 +1,4 @@
-DiskDirCrc 1.0, a [Total Commander](https://www.ghisler.com/) plugin
+DiskDirCrc 1.1, a [Total Commander](https://www.ghisler.com/) plugin
 ====================================
 
 As the original DiskDir plugin, DiskDirCrc creates a list file with all selected files and directories, including subdirs. You can then "navigate" this list with Total Commander as if it was an archive or directory containing the files.
@@ -17,12 +17,13 @@ If the original files are in other location (e.g. another drive unit) and you wa
 
 Download and resources
 ----------------------
-- Download the [latest release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases/1.0/DiskDirCrc.zip)
+- Download the [latest release in this project](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/releases)
 - DiskDirCrc [Github page](https://moisescastellano.github.io/diskdircrc-tcplugin/) 
 - DiskDirCrc [Github project](https://github.com/moisescastellano/diskdircrc-tcplugin)
 - [Plugin page at totalcmd.net](http://totalcmd.net/plugring/diskdircrc.html)
 - [Thread for discussing this plugin](https://www.ghisler.ch/board/viewtopic.php?t=75748) at the TC forum
 - This is a work in progress, you can help with [things to do](https://github.com/moisescastellano/diskdircrc-tcplugin/blob/main/to-do.md)
+- History of [changes](./changes.md)
 
 Java plugin - JRE related issues
 ----------------------
@@ -87,17 +88,15 @@ Important note!: Beware this tool can create incremental backups that are stored
 
 A bit of history
 ----------------------
-I created first the standalone application for index files in 2002. Back then DiskDir and its list files were very useful for knowing and navigating what I had in CD-ROMs, as they are now for which is in external drives and others; however the former ones were more error-prone so I needed an integrity verification tool that happened to be perfectly integrable into Diskdir list files.
+I created first the **standalone application** for index files in 2002. Back then DiskDir and its list files were very useful for knowing and navigating what I had in CD-ROMs, as they are now for which is in external drives and others; however the former ones were more error-prone so I needed an integrity verification tool that happened to be perfectly integrable into Diskdir list files.
 
-Development of incremental backup application began in 2005, then was abandoned for a long (long) time, then finished in 2017.
+Development of **incremental backup application** began in 2005, then was abandoned for a long (long) time, then finished in 2017.
 
-In 2021 I took in charge the adaptation to 64-bit Total Commander of abandoned Java Plugin (c) 2006-2007 Ken Handel, because I wanted to develop DiskDirCrc as a TC plugin and Java is my favourite language. I was on the verge of abandoning it but Ghisler (author of TC) stepped in to help (see https://www.ghisler.ch/board/viewtopic.php?t=75726). From there, development of DiskDirCrc plugin itself took just a couple hours.
+In 2021 I took in charge the adaptation to 64-bit Total Commander of abandoned Java Plugin (c) 2006-2007 Ken Handel, because I wanted to develop **DiskDirCrc as a TC plugin** and Java is my favourite language. I was on the verge of abandoning it but Ghisler (author of TC) stepped in to help (see https://www.ghisler.ch/board/viewtopic.php?t=75726). From there, development of DiskDirCrc plugin itself took just a couple hours.
 
 
 Contact
 ----------------------
-Author: Moises Castellano 2021
-
 If you have any comment, suggestion or problem regarding this java plugin,
 you contact me at:
  - email: moises.castellano (at) gmail.com
