@@ -98,7 +98,7 @@ In 2021 I took in charge the adaptation to 64-bit Total Commander of abandoned J
 Contact
 ----------------------
 If you have any comment, suggestion or problem regarding this java plugin,
-you contact me at:
+you can contact me at:
  - email: moises.castellano (at) gmail.com
  - [Github project issues page](https://github.com/moisescastellano/diskdircrc-tcplugin/issues)
 
